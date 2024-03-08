@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Portfólio Pedro Henrique</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Início</a></li>
+                        <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#certificacoes" class="nav__link">Certificações</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Portfólio pessoal<br>Pedro Henrique</span><br> </h1>
+
+                    <a href="https://api.whatsapp.com/send?phone=5562983181287&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20projeto!"target="_blank" class="button">Contato</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/pedro-henrique-aa76b7215/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Phrs467" target="_blank"class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!--deixar a imagem por trás-->
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <!--o 'círculo' azul-->
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="-10" y="0" href="assets/img/foto1.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== Sobre =====-->
+            <section class="sobre section " id="sobre">
+                <h2 class="section-title">Sobre mim</h2>
+
+                <div class="sobre__container bd-grid">
+                    <div class="sobre__img">
+                        <img src="assets/img/foto 2.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="sobre__subtitle">Sou o Pedro</h2>
+                        <p class="sobre__text">Estou desenvolvendo esse site no entuito de postar sobre os meus conhecimentos adquiridos ao longo da minha carreira
+                            profissional e acadêmica. Atualmente estou cursando o Engenharia de Software na UNIFAN e pretendo seguir na carreiro de QA, mas, nada que me 
+                            impeça de mudar o cenário até o final do curso. Atualmente estou trabalhando em uma Instituição de Ensino como suporte de usuário e como Tester.
+                        </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Minhas Skills</h2>
+                        <p class="skills__text">Aqui irei falar sobre os meus conhecimentos adquiridos ao longo da minha carreira acadêmica e profissional na área de T.I.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-dev-to skills__icon'></i>
+                                <span class="skills__name">Delphi</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">45%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-cylinder skills__icon'></i>
+                                <span class="skills__name">SQL Server</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">35%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-error skills__icon' ></i>
+                                <span class="skills__name">Testes de Software</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">55%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-github skills__icon'></i>
+                                <span class="skills__name">Versionamento de Código</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/codigo.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== Trabalho =====-->
+            <section class="certificacoes section" id="certificacoes">
+                <h2 class="section-title">Certificações</h2>
+
+                <div class="certificacoes__container bd-grid">
+                    <a href="" class="certificacoes__img">
+                        <img src="assets/img/algoritmo.jpg" alt="">
+                    </a>
+                    <a href="" class="certificacoes__img">
+                        <img src="assets/img/cloud.jpg" alt="">
+                    </a>
+                    <a href="" class="certificacoes__img">
+                        <img src="assets/img/teste.jpg" alt="">
+                    </a>
+                    <a href="" class="certificacoes__img">
+                        <img src="assets/img/versionamento.jpg" alt="">
+                    </a>
+                    <a href="" class="certificacoes__img">
+                        <img src="assets/img/fundamentos.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+
+            <!--===== Contato =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contato</h2>
+                
+                <div class="contact__container bd-grid">
+                    <form action="https://formsubmit.co/phrs467@gmail.com" class="contact__form" method="POST">
+                        <input type="text" placeholder="Nome" class="contact__input">
+                        <input type="email" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="submit"  value="Enviar" class="contact__button button">
+                        <input type="hidden" name="_captcha" value="false">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== Rodapé =====-->
+        <footer class="footer">
+            <p class="footer__title">Pedro Henrique</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/pedro-henrique-aa76b7215/" target="_blank" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Phrs467" target="_blank"class="footer__icon"><i class='bx bxl-github' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Desenvolvido por Pedro Henrique</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
