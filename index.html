@@ -1,206 +1,376 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfólio de Pedro Henrique - Desenvolvedor Web especialista em Landing Pages, Sistemas Web e Agentes de IA.">
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/styles.css?v=19">
 
-        <title>Portfolio website complete</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Portfólio Pedro Henrique</a>
-                </div>
+    <!-- =====BOX ICONS===== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Início</a></li>
-                        <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#certificacoes" class="nav__link">Certificações</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
-                    </ul>
-                </div>
+    <title>Pedro Henrique | Desenvolvedor Web</title>
+</head>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">PH.</a>
+            </div>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Início</a></li>
+                    <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#servicos" class="nav__link">Serviços</a></li>
+                    <li class="nav__item"><a href="#projetos" class="nav__link">Projetos</a></li>
+                    <li class="nav__item"><a href="#certificacoes" class="nav__link">Certificações</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
                 <div class="home__data">
-                    <h1 class="home__title">Portfólio pessoal<br>Pedro Henrique</span><br> </h1>
+                    <p class="home__greeting">Olá, seja bem-vindo</p>
+                    <h1 class="home__title">Pedro<br><span>Henrique</span><br>Dev Web</h1>
+                    <p class="home__description">Especialista em criar experiências digitais incríveis — de Landing
+                        Pages de alta conversão a Sistemas Web e Agentes de IA.</p>
 
-                    <a href="https://api.whatsapp.com/send?phone=5562983181287&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20projeto!"target="_blank" class="button">Contato</a>
-                </div>
+                    <div class="home__buttons">
+                        <a href="https://api.whatsapp.com/send?phone=5562983181287&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20projeto!"
+                            target="_blank" class="button">
+                            <i class='bx bxl-whatsapp'></i> Fale Comigo
+                        </a>
+                        <a href="#sobre" class="button button--outline">
+                            Saiba Mais <i class='bx bx-chevron-down'></i>
+                        </a>
+                    </div>
 
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/pedro-henrique-aa76b7215/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/Phrs467" target="_blank"class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/pedro-henrique-aa76b7215/" target="_blank"
+                            class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/Phrs467" target="_blank" class="home__social-icon"><i
+                                class='bx bxl-github'></i></a>
+                    </div>
+
+                    <div class="home__stats">
+                        <div class="home__stat">
+                            <span class="home__stat-number">3+</span>
+                            <p class="home__stat-label">Anos Exp.</p>
+                        </div>
+                        <div class="home__stat">
+                            <span class="home__stat-number">10+</span>
+                            <p class="home__stat-label">Projetos</p>
+                        </div>
+                        <div class="home__stat">
+                            <span class="home__stat-number">100%</span>
+                            <p class="home__stat-label">Dedicação</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <!--deixar a imagem por trás-->
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs>
+                            <filter id="glow">
+                                <feGaussianBlur stdDeviation="8" result="coloredBlur" />
+                                <feMerge>
+                                    <feMergeNode in="coloredBlur" />
+                                    <feMergeNode in="SourceGraphic" />
+                                </feMerge>
+                            </filter>
+                        </defs>
                         <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <path
+                                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
                         </mask>
-                        <!--o 'círculo' azul-->
                         <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="-10" y="0" href="assets/img/foto1.png"/>
+                            <path fill="url(#blobGrad)"
+                                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                            <image x="-30" y="-30" width="540" height="540" preserveAspectRatio="xMidYMid slice"
+                                href="assets/img/foto 1.jpeg" />
                         </g>
+                        <defs>
+                            <linearGradient id="blobGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#7c3aed" />
+                                <stop offset="100%" style="stop-color:#06b6d4" />
+                            </linearGradient>
+                        </defs>
                     </svg>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--===== Sobre =====-->
-            <section class="sobre section " id="sobre">
-                <h2 class="section-title">Sobre mim</h2>
-
-                <div class="sobre__container bd-grid">
-                    <div class="sobre__img">
-                        <img src="assets/img/foto 2.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="sobre__subtitle">Sou o Pedro</h2>
-                        <p class="sobre__text">Estou desenvolvendo esse site no entuito de postar sobre os meus conhecimentos adquiridos ao longo da minha carreira
-                            profissional e acadêmica. Atualmente estou cursando o Engenharia de Software na UNIFAN e pretendo seguir na carreiro de QA, mas, nada que me 
-                            impeça de mudar o cenário até o final do curso. Atualmente estou trabalhando em uma Instituição de Ensino como suporte de usuário e como Tester.
-                        </p>           
-                    </div>                                   
+        <!--===== Sobre =====-->
+        <section class="sobre section" id="sobre">
+            <div class="bd-grid">
+                <div class="section-wrapper">
+                    <span class="section-badge">Quem sou eu</span>
+                    <h2 class="section-title">Sobre Mim</h2>
                 </div>
-            </section>
 
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Minhas Skills</h2>
-                        <p class="skills__text">Aqui irei falar sobre os meus conhecimentos adquiridos ao longo da minha carreira acadêmica e profissional na área de T.I.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-dev-to skills__icon'></i>
-                                <span class="skills__name">Delphi</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">45%</span>
-                            </div>
+                <div class="sobre__container">
+                    <div class="sobre__img-wrapper">
+                        <div class="sobre__img">
+                            <img src="assets/img/foto 2.jpeg" alt="Foto do Pedro Henrique">
                         </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-cylinder skills__icon'></i>
-                                <span class="skills__name">SQL Server</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">35%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-error skills__icon' ></i>
-                                <span class="skills__name">Testes de Software</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">55%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-github skills__icon'></i>
-                                <span class="skills__name">Versionamento de Código</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">30%</span>
-                            </div>
+                        <div class="sobre__experience-badge">
+                            <span>3+</span>
+                            <p>Anos de Exp.</p>
                         </div>
                     </div>
-                    
-                    <div>              
-                        <img src="assets/img/codigo.jpg" alt="" class="skills__img">
+
+                    <div class="sobre__content">
+                        <p class="sobre__subtitle">Muito prazer, sou o Pedro!</p>
+                        <p class="sobre__text">
+                            Estou desenvolvendo este site com o intuito de postar sobre os conhecimentos adquiridos ao
+                            longo da minha carreira profissional. Sou formado em Engenharia de Software na UNIFAN e
+                            pretendo seguir na carreira de dev, aberto sempre a novos desafios. Atualmente trabalho em
+                            uma Instituição de Ensino como Analista e desenvolvedor e suporte, e também desenvolvo
+                            soluções tecnológicas sob medida.
+                        </p>
+                        <div class="sobre__info">
+                            <div class="sobre__info-item">
+                                <p class="sobre__info-label">Formação</p>
+                                <p class="sobre__info-value">Eng. de Software</p>
+                            </div>
+                            <div class="sobre__info-item">
+                                <p class="sobre__info-label">Instituição</p>
+                                <p class="sobre__info-value">UNIFAN</p>
+                            </div>
+                            <div class="sobre__info-item">
+                                <p class="sobre__info-label">Localização</p>
+                                <p class="sobre__info-value">Goiás, Brasil</p>
+                            </div>
+                            <div class="sobre__info-item">
+                                <p class="sobre__info-label">Foco</p>
+                                <p class="sobre__info-value">Desenlvimento WEB</p>
+                            </div>
+                        </div>
+                        <a href="https://api.whatsapp.com/send?phone=5562983181287&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20projeto!"
+                            target="_blank" class="button">
+                            <i class='bx bxl-whatsapp'></i> Vamos Conversar
+                        </a>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--===== Trabalho =====-->
-            <section class="certificacoes section" id="certificacoes">
-                <h2 class="section-title">Certificações</h2>
+        <!--===== SERVIÇOS =====-->
+        <section class="servicos section" id="servicos">
+            <div class="bd-grid">
+                <div class="section-wrapper">
+                    <span class="section-badge">O que eu faço</span>
+                    <h2 class="section-title">Meus Serviços</h2>
+                </div>
 
-                <div class="certificacoes__container bd-grid">
-                    <a href="" class="certificacoes__img">
-                        <img src="assets/img/algoritmo.jpg" alt="">
+                <div class="servicos__container">
+                    <div class="servicos__card">
+                        <div class="servicos__icon-wrapper">
+                            <i class='bx bx-desktop servicos__icon'></i>
+                        </div>
+                        <h3 class="servicos__title">Landing Pages</h3>
+                        <p class="servicos__description">Criação de páginas de alta conversão para o seu negócio, com
+                            design focado no usuário e performance incrível para captar leads e alavancar vendas.</p>
+                        <a href="#contact" class="servicos__link">Solicitar orçamento <i
+                                class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+
+                    <div class="servicos__card">
+                        <div class="servicos__icon-wrapper">
+                            <i class='bx bx-server servicos__icon'></i>
+                        </div>
+                        <h3 class="servicos__title">Sistemas Web</h3>
+                        <p class="servicos__description">Desenvolvimento de plataformas completas com integração a banco
+                            de dados. Tenha o controle do seu negócio com soluções customizadas e escaláveis.</p>
+                        <a href="#contact" class="servicos__link">Solicitar orçamento <i
+                                class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+
+                    <div class="servicos__card">
+                        <div class="servicos__icon-wrapper">
+                            <i class='bx bx-bot servicos__icon'></i>
+                        </div>
+                        <h3 class="servicos__title">Agente de IA</h3>
+                        <p class="servicos__description">Implementação de assistentes virtuais inteligentes que
+                            automatizam o atendimento e trazem inovação e eficiência para as suas operações.</p>
+                        <a href="#contact" class="servicos__link">Solicitar orçamento <i
+                                class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== PROJETOS =====-->
+        <section class="projetos section" id="projetos">
+            <div class="bd-grid">
+                <div class="section-wrapper">
+                    <span class="section-badge">O que já construi</span>
+                    <h2 class="section-title">Projetos</h2>
+                </div>
+
+                <div class="projeto__card">
+                    <div class="projeto__header">
+                        <div class="projeto__info">
+                            <span class="projeto__tag">E-commerce</span>
+                            <h3 class="projeto__title">Bella Make</h3>
+                            <p class="projeto__description">
+                                Plataforma de e-commerce completa para uma loja de maquiagem e skincare. Desenvolvida
+                                com <strong>Next.js</strong> no front-end e <strong>NestJS + SQLite</strong> no
+                                back-end, conta com catálogo de produtos com filtros por categoria e marca, página de
+                                detalhes de produto, sacola de compras, checkout e integração com WhatsApp para
+                                finalização de pedidos.
+                            </p>
+                            <div class="projeto__techs">
+                                <span class="projeto__tech">Next.js</span>
+                                <span class="projeto__tech">NestJS</span>
+                                <span class="projeto__tech">TypeScript</span>
+                                <span class="projeto__tech">SQLite</span>
+                                <span class="projeto__tech">Tailwind CSS</span>
+                                <span class="projeto__tech">Prisma ORM</span>
+                            </div>
+                            <div class="projeto__links">
+                                <a href="https://github.com/Phrs467" target="_blank" class="button">
+                                    <i class='bx bxl-github'></i> Ver no GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projeto__screenshots">
+                        <div class="projeto__screen projeto__screen--main">
+                            <img src="assets/img/proj_home.png" alt="Bella Make - Homepage" loading="lazy">
+                            <span class="projeto__screen-label">Homepage &amp; Hero</span>
+                        </div>
+                        <div class="projeto__screen-grid">
+                            <div class="projeto__screen">
+                                <img src="assets/img/proj_catalog.png" alt="Catálogo de Produtos" loading="lazy">
+                                <span class="projeto__screen-label">Catálogo com Filtros</span>
+                            </div>
+                            <div class="projeto__screen">
+                                <img src="assets/img/proj_detail.png" alt="Detalhe do Produto" loading="lazy">
+                                <span class="projeto__screen-label">Página de Produto</span>
+                            </div>
+                            <div class="projeto__screen">
+                                <img src="assets/img/proj_cart.png" alt="Sacola de Compras" loading="lazy">
+                                <span class="projeto__screen-label">Sacola de Compras</span>
+                            </div>
+                            <div class="projeto__screen">
+                                <img src="assets/img/proj_checkout.png" alt="Checkout" loading="lazy">
+                                <span class="projeto__screen-label">Checkout</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== CERTIFICAÇÕES =====-->
+        <section class="certificacoes section" id="certificacoes">
+            <div class="bd-grid">
+                <div class="section-wrapper">
+                    <span class="section-badge">Aprendizado</span>
+                    <h2 class="section-title">Certificações</h2>
+                </div>
+
+                <div class="certificacoes__container">
+                    <a href="assets/img/diploma_unifan.png" class="certificacoes__img certificacoes__img--diploma"
+                        target="_blank">
+                        <img src="assets/img/diploma_unifan.png" alt="Diploma - Engenharia de Software UNIFAN">
+                        <span class="certificacoes__diploma-badge"></span>
                     </a>
-                    <a href="" class="certificacoes__img">
-                        <img src="assets/img/cloud.jpg" alt="">
+                    <a href="assets/img/algoritmo.jpg" class="certificacoes__img" target="_blank">
+                        <img src="assets/img/algoritmo.jpg" alt="Certificado Algoritmo">
                     </a>
-                    <a href="" class="certificacoes__img">
-                        <img src="assets/img/teste.jpg" alt="">
+                    <a href="assets/img/cloud.jpg" class="certificacoes__img" target="_blank">
+                        <img src="assets/img/cloud.jpg" alt="Certificado Cloud">
                     </a>
-                    <a href="" class="certificacoes__img">
-                        <img src="assets/img/versionamento.jpg" alt="">
+                    <a href="assets/img/teste.jpg" class="certificacoes__img" target="_blank">
+                        <img src="assets/img/teste.jpg" alt="Certificado Testes">
                     </a>
-                    <a href="" class="certificacoes__img">
-                        <img src="assets/img/fundamentos.jpg" alt="">
+                    <a href="assets/img/versionamento.jpg" class="certificacoes__img" target="_blank">
+                        <img src="assets/img/versionamento.jpg" alt="Certificado Versionamento">
+                    </a>
+                    <a href="assets/img/fundamentos.jpg" class="certificacoes__img" target="_blank">
+                        <img src="assets/img/fundamentos.jpg" alt="Certificado Fundamentos">
                     </a>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--===== Contato =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contato</h2>
-                
-                <div class="contact__container bd-grid">
+        <!--===== CTA =====-->
+        <section class="cta section">
+            <div class="cta__container bd-grid">
+                <div class="section-wrapper" style="margin-bottom: 1.5rem;">
+                    <span class="section-badge">Vamos trabalhar juntos</span>
+                </div>
+                <h2 class="cta__title">Tem um projeto em <span>mente?</span></h2>
+                <p class="cta__subtitle">Estou disponível para novos projetos e parcerias. Vamos criar algo incrível
+                    juntos!</p>
+                <a href="#contact" class="button" style="display:inline-flex;">
+                    <i class='bx bx-send'></i> Iniciar Projeto
+                </a>
+            </div>
+        </section>
+
+        <!--===== Contato =====-->
+        <section class="contact section" id="contact">
+            <div class="bd-grid">
+                <div class="section-wrapper">
+                    <span class="section-badge">Entre em contato</span>
+                    <h2 class="section-title">Contato</h2>
+                </div>
+
+                <div class="contact__container">
                     <form action="https://formsubmit.co/phrs467@gmail.com" class="contact__form" method="POST">
-                        <input type="text" placeholder="Nome" class="contact__input">
-                        <input type="email" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="submit"  value="Enviar" class="contact__button button">
+                        <input type="text" name="Nome" placeholder="Seu Nome" class="contact__input" required>
+                        <input type="email" name="Email" placeholder="Seu Email" class="contact__input" required>
+                        <textarea name="Mensagem" placeholder="Sua mensagem..." cols="0" rows="6" class="contact__input"
+                            required></textarea>
                         <input type="hidden" name="_captcha" value="false">
+                        <button type="submit" class="contact__button button">
+                            <i class='bx bx-send'></i> Enviar Mensagem
+                        </button>
                     </form>
                 </div>
-            </section>
-        </main>
-
-        <!--===== Rodapé =====-->
-        <footer class="footer">
-            <p class="footer__title">Pedro Henrique</p>
-            <div class="footer__social">
-                <a href="https://www.linkedin.com/in/pedro-henrique-aa76b7215/" target="_blank" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/Phrs467" target="_blank"class="footer__icon"><i class='bx bxl-github' ></i></a>
             </div>
-            <p class="footer__copy">&#169; Desenvolvido por Pedro Henrique</p>
-        </footer>
+        </section>
+    </main>
 
+    <!--===== Rodapé =====-->
+    <footer class="footer">
+        <h2 class="footer__title">Pedro Henrique</h2>
+        <p class="footer__subtitle">Desenvolvedor Web & Eng. de Software</p>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/pedro-henrique-aa76b7215/" target="_blank" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Phrs467" target="_blank" class="footer__icon"><i class='bx bxl-github'></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5562983181287" target="_blank" class="footer__icon"><i
+                    class='bx bxl-whatsapp'></i></a>
+        </div>
+        <p class="footer__copy">&#169; 2026 PhDevs. Todos os direitos reservados.</p>
+    </footer>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
